@@ -53,14 +53,16 @@ services:
 
   mysql:
     container_name: ecommerce-mysql
-    image: mysql:latest
+    image: mysql:9.0
+    user: root
     volumes:
       - "./.mysql-data/db:/var/lib/mysql"
     restart: always
     ports:
       - 33066:3306
     environment:
-      MYSQL_ROOT_PASSWORD: 1234
+#      MYSQL_ALLOW_EMPTY_PASSWORD: yes
+      MYSQL_ROOT_PASSWORD: Nguyenleviz@311
       MYSQL_DATABASE: commerce
-      MYSQL_USER: john.doe
-      MYSQL_PASSWORD: 1234
+      MYSQL_USER: root
+      MYSQL_PASSWORD: Nguyenleviz@311
