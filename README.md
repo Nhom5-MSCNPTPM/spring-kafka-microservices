@@ -68,3 +68,4 @@ Alternately, you can use those images with **Kubernetes**.
 &nbsp;&nbsp;&nbsp;&nbsp;**MySQL** - A relational database management system [Optional].  
 &nbsp;&nbsp;&nbsp;&nbsp;**Docker** - A containerization platform.  
 &nbsp;&nbsp;&nbsp;&nbsp;**Maven** - Build tool & Dependency Management.  
+---- Research for Exam1 ----
