@@ -6,9 +6,9 @@ spring:
       ddl-auto: create-drop
     show-sql: true
   datasource:
-    url: jdbc:mysql://127.0.0.1:33066/commerce
+    url: jdbc:mysql://127.0.0.1:3306/commerce
     username: root
-    password: 1234
+    password: Nguyenleviz@311
 
 spring.kafka:
   bootstrap-servers: 127.0.0.1:39092, 127.0.0.1:29092
